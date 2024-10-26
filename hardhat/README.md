@@ -42,6 +42,6 @@ Detailed Requirements:
 5. Deliverables:
 ● GitHub repository containing:
 ● Vault smart contract code.
-○ Node.js backend code with instructions on how to run the service.
-○ Frontend code with setup instructions.
+● Node.js backend code with instructions on how to run the service.
+● Frontend code with setup instructions.
 ● Deployed contract address and transaction hashes for testnet deployment.
