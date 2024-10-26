@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.primary-button {
+  @apply m-auto bg-gradient-to-l from-yellow-600 to-yellow-400 w-[100%] text-black p-2 rounded-xl text-2xl font-bold;
+}
+.disabled-button {
+  @apply m-auto bg-gradient-to-l from-slate-600 to-slate-400 w-[100%] text-black p-2 rounded-xl text-2xl font-bold;
+}
+.primary-text {
+  @apply bg-gradient-to-r from-yellow-400 via-yellow-50 to-yellow-200 inline-block text-transparent bg-clip-text;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0c0c0c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-family: "Quicksand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
